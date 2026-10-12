@@ -1,0 +1,70 @@
+{
+  "environment": "Chromium desktop browser with responsive viewports. Source HTML, CSS, JavaScript and all SVG resources were rendered locally without external dependencies.",
+  "structure": {
+    "imageFiles": "All SVG",
+    "imageAssets": 33,
+    "htmlImages": 57,
+    "pricingCards": 4,
+    "missingLocalFiles": 0,
+    "invalidSvgFiles": 0,
+    "missingSectionTargets": 0
+  },
+  "viewports": [
+    {
+      "width": 1440,
+      "documentWidth": 1440,
+      "height": 2544,
+      "unloadedImages": [],
+      "imageCount": 57,
+      "horizontalOverflow": [],
+      "view": "desktop",
+      "errors": []
+    },
+    {
+      "width": 1024,
+      "documentWidth": 1024,
+      "height": 2523,
+      "unloadedImages": [],
+      "imageCount": 57,
+      "horizontalOverflow": [],
+      "view": "laptop",
+      "errors": []
+    },
+    {
+      "width": 768,
+      "documentWidth": 768,
+      "height": 3464,
+      "unloadedImages": [],
+      "imageCount": 57,
+      "horizontalOverflow": [],
+      "view": "tablet",
+      "errors": [],
+      "menuOpens": true,
+      "menuCloses": true
+    },
+    {
+      "width": 390,
+      "documentWidth": 390,
+      "height": 4719,
+      "unloadedImages": [],
+      "imageCount": 57,
+      "horizontalOverflow": [],
+      "view": "mobile",
+      "errors": [],
+      "menuOpens": true,
+      "menuCloses": true
+    },
+    {
+      "width": 320,
+      "documentWidth": 320,
+      "height": 4781,
+      "unloadedImages": [],
+      "imageCount": 57,
+      "horizontalOverflow": [],
+      "view": "small-mobile",
+      "errors": [],
+      "menuOpens": true,
+      "menuCloses": true
+    }
+  ]
+}
