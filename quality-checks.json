@@ -1,70 +1,1465 @@
 {
-  "environment": "Chromium desktop browser with responsive viewports. Source HTML, CSS, JavaScript and all SVG resources were rendered locally without external dependencies.",
-  "structure": {
-    "imageFiles": "All SVG",
-    "imageAssets": 33,
-    "htmlImages": 57,
-    "pricingCards": 4,
-    "missingLocalFiles": 0,
-    "invalidSvgFiles": 0,
-    "missingSectionTargets": 0
-  },
-  "viewports": [
+  "date": "2026-10-16",
+  "recovery": true,
+  "checks": [
     {
       "width": 1440,
       "documentWidth": 1440,
-      "height": 2544,
-      "unloadedImages": [],
-      "imageCount": 57,
-      "horizontalOverflow": [],
-      "view": "desktop",
-      "errors": []
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 25.3125,
+          "featuresClearance": 52.3125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 6.8125,
+          "featuresClearance": 52.3125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true
+    },
+    {
+      "width": 1201,
+      "documentWidth": 1201,
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 25.3125,
+          "featuresClearance": 52.3125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 6.8125,
+          "featuresClearance": 52.3125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true
     },
     {
       "width": 1024,
       "documentWidth": 1024,
-      "height": 2523,
-      "unloadedImages": [],
-      "imageCount": 57,
-      "horizontalOverflow": [],
-      "view": "laptop",
-      "errors": []
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 28.546875,
+          "featuresClearance": 53.03125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 8.21875,
+          "featuresClearance": 53.03125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true
     },
     {
-      "width": 768,
-      "documentWidth": 768,
-      "height": 3464,
-      "unloadedImages": [],
-      "imageCount": 57,
-      "horizontalOverflow": [],
-      "view": "tablet",
-      "errors": [],
-      "menuOpens": true,
-      "menuCloses": true
+      "width": 721,
+      "documentWidth": 721,
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 26.15625,
+          "featuresClearance": 79.78125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 28.21875,
+          "featuresClearance": 79.78125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true,
+      "mobileMenu": true
+    },
+    {
+      "width": 640,
+      "documentWidth": 640,
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 23.546875,
+          "featuresClearance": 53.125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 13.21875,
+          "featuresClearance": 53.125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true,
+      "mobileMenu": true
+    },
+    {
+      "width": 480,
+      "documentWidth": 480,
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 23.546875,
+          "featuresClearance": 53.125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 13.21875,
+          "featuresClearance": 53.125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true,
+      "mobileMenu": true
     },
     {
       "width": 390,
       "documentWidth": 390,
-      "height": 4719,
-      "unloadedImages": [],
-      "imageCount": 57,
-      "horizontalOverflow": [],
-      "view": "mobile",
-      "errors": [],
-      "menuOpens": true,
-      "menuCloses": true
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 24.015625,
+          "featuresClearance": 59.125,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 52.21875,
+          "featuresClearance": 59.125,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true,
+      "mobileMenu": true
     },
     {
       "width": 320,
       "documentWidth": 320,
-      "height": 4781,
-      "unloadedImages": [],
-      "imageCount": 57,
-      "horizontalOverflow": [],
-      "view": "small-mobile",
-      "errors": [],
-      "menuOpens": true,
-      "menuCloses": true
+      "missingImages": [],
+      "fontsLoaded": true,
+      "missingAnchors": [],
+      "intro": "Customised Small LLMs. Curriculum Aligned \u00b7 Voice Activated",
+      "introSingleLine": true,
+      "introFits": true,
+      "originWeight": "800",
+      "originBottomSpace": "24px",
+      "contact": "mailto:help@aalopro.com",
+      "stats": [
+        "2,000+ Students Activated",
+        "500+ Teachers Onboarded",
+        "7+ MOUs Signed with Schools",
+        "~50,000 Questions Asked"
+      ],
+      "teacher": "\u201cMy students are more confident and ask better questions.\u201d\n\u2605\u2605\u2605\u2605\u2605\nMs. Rabeya\nTeacher, Dhaka, Bangladesh",
+      "cards": [
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$1 / month",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$2 / month",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 33.421875,
+          "featuresClearance": 82.375,
+          "buttonClear": true
+        },
+        {
+          "prices": [
+            {
+              "label": "Primary",
+              "price": "US$39",
+              "fits": true
+            },
+            {
+              "label": "Secondary",
+              "price": "US$49",
+              "fits": true
+            }
+          ],
+          "fits": true,
+          "artworkClearance": 64.21875,
+          "featuresClearance": 82.375,
+          "buttonClear": true
+        }
+      ],
+      "appPlaceholderAndFocus": true,
+      "mobileMenu": true
     }
-  ]
+  ],
+  "errors": [],
+  "packaging": {
+    "zip": "aalopro-website-2026-10-16.zip",
+    "files": 26,
+    "zipBytes": 2838739,
+    "allAssetReferencesResolve": true,
+    "sourceMatchesDist": true,
+    "zipIntegrity": "passed"
+  },
+  "aaloappLogoUpdate": {
+    "date": "2026-10-16",
+    "widths": [
+      1440,
+      1201,
+      1024,
+      961,
+      721,
+      640,
+      480,
+      390,
+      320
+    ],
+    "transparentAlpha": true,
+    "imageLoading": "passed",
+    "pageOverflow": "none",
+    "logoWithinCard": "passed",
+    "phoneAndFeatureClearance": "passed",
+    "visualInspection": [
+      1440,
+      480,
+      390
+    ]
+  },
+  "premiumBenefitIcons": {
+    "date": "2026-10-16",
+    "checks": [
+      {
+        "width": 1440,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#benefit-curriculum",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          },
+          {
+            "target": "#benefit-safety",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          },
+          {
+            "target": "#benefit-affordable",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#benefit-curriculum",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          },
+          {
+            "target": "#benefit-safety",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          },
+          {
+            "target": "#benefit-affordable",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 44
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#benefit-curriculum",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          },
+          {
+            "target": "#benefit-safety",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          },
+          {
+            "target": "#benefit-affordable",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#benefit-curriculum",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          },
+          {
+            "target": "#benefit-safety",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          },
+          {
+            "target": "#benefit-affordable",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 40
+          }
+        ]
+      }
+    ],
+    "visualInspection": [
+      1440,
+      390
+    ]
+  },
+  "premiumProductIcons": {
+    "date": "2026-10-16",
+    "checks": [
+      {
+        "width": 1440,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#feature-phone",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-guidance",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-voice",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-screen-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-cloud-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          }
+        ],
+        "cards": [
+          {
+            "labels": [
+              "On your phone",
+              "Step-by-step help",
+              "Works offline"
+            ],
+            "priceClearance": 52.3125
+          },
+          {
+            "labels": [
+              "Ask by voice",
+              "No screen needed",
+              "No cloud required"
+            ],
+            "priceClearance": 52.3125
+          }
+        ]
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#feature-phone",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-guidance",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-voice",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-screen-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          },
+          {
+            "target": "#feature-cloud-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 29
+          }
+        ],
+        "cards": [
+          {
+            "labels": [
+              "On your phone",
+              "Step-by-step help",
+              "Works offline"
+            ],
+            "priceClearance": 53.03125
+          },
+          {
+            "labels": [
+              "Ask by voice",
+              "No screen needed",
+              "No cloud required"
+            ],
+            "priceClearance": 53.03125
+          }
+        ]
+      },
+      {
+        "width": 721,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#feature-phone",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-guidance",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-voice",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-screen-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-cloud-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          }
+        ],
+        "cards": [
+          {
+            "labels": [
+              "On your phone",
+              "Step-by-step help",
+              "Works offline"
+            ],
+            "priceClearance": 79.78125
+          },
+          {
+            "labels": [
+              "Ask by voice",
+              "No screen needed",
+              "No cloud required"
+            ],
+            "priceClearance": 79.78125
+          }
+        ]
+      },
+      {
+        "width": 480,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#feature-phone",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-guidance",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-voice",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-screen-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-cloud-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          }
+        ],
+        "cards": [
+          {
+            "labels": [
+              "On your phone",
+              "Step-by-step help",
+              "Works offline"
+            ],
+            "priceClearance": 53.125
+          },
+          {
+            "labels": [
+              "Ask by voice",
+              "No screen needed",
+              "No cloud required"
+            ],
+            "priceClearance": 53.125
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#feature-phone",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-guidance",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-voice",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-screen-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          },
+          {
+            "target": "#feature-cloud-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 24
+          }
+        ],
+        "cards": [
+          {
+            "labels": [
+              "On your phone",
+              "Step-by-step help",
+              "Works offline"
+            ],
+            "priceClearance": 59.125
+          },
+          {
+            "labels": [
+              "Ask by voice",
+              "No screen needed",
+              "No cloud required"
+            ],
+            "priceClearance": 59.125
+          }
+        ]
+      },
+      {
+        "width": 320,
+        "overflow": false,
+        "icons": [
+          {
+            "target": "#feature-phone",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 23
+          },
+          {
+            "target": "#feature-guidance",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 23
+          },
+          {
+            "target": "#benefit-offline",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 23
+          },
+          {
+            "target": "#feature-voice",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 23
+          },
+          {
+            "target": "#feature-screen-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 23
+          },
+          {
+            "target": "#feature-cloud-free",
+            "present": true,
+            "decorative": true,
+            "insideBadge": true,
+            "width": 23
+          }
+        ],
+        "cards": [
+          {
+            "labels": [
+              "On your phone",
+              "Step-by-step help",
+              "Works offline"
+            ],
+            "priceClearance": 82.375
+          },
+          {
+            "labels": [
+              "Ask by voice",
+              "No screen needed",
+              "No cloud required"
+            ],
+            "priceClearance": 82.375
+          }
+        ]
+      }
+    ],
+    "visualInspection": [
+      1440,
+      390
+    ]
+  },
+  "seoAudit": {
+    "date": "2026-10-16",
+    "liveUrl": "https://aalopro.com/",
+    "lighthouseVersion": "13.5.0",
+    "liveScores": {
+      "performance": 71,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "localSeoScore": 100,
+    "report": "reports/AaloPro-SEO-Audit-2026-10-16.html",
+    "published": false
+  },
+  "productPages": {
+    "date": "2026-10-16",
+    "pages": [
+      "aaloapp/index.html",
+      "aalodot/index.html"
+    ],
+    "published": false,
+    "viewportWidths": [
+      1440,
+      1024,
+      768,
+      390,
+      320
+    ],
+    "browserChecks": "passed",
+    "staticLinksAndSitemap": "passed",
+    "noJavaScriptDiscovery": "passed",
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "lighthouseLocal": {
+      "aaloapp": {
+        "accessibility": 100,
+        "seo": 100
+      },
+      "aalodot": {
+        "accessibility": 100,
+        "seo": 100
+      },
+      "home-products": {
+        "accessibility": 100,
+        "seo": 100
+      }
+    },
+    "evidence": "reports/product-pages-checks.json"
+  },
+  "legalPages": {
+    "date": "2026-10-16",
+    "pages": [
+      "terms/index.html",
+      "privacy/index.html"
+    ],
+    "published": false,
+    "sections": {
+      "terms": 33,
+      "privacy": 24
+    },
+    "sourceContentPreservation": "passed; AaloDot availability descriptions explicitly updated",
+    "footerLinks": "all five pages",
+    "internalReferencesChecked": 249,
+    "sitemapPages": 5,
+    "browserViewportChecks": 17,
+    "viewportWidths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "browserChecks": "passed",
+    "noJavaScript": "passed",
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "lighthouseLocal": {
+      "privacy": {
+        "accessibility": 100,
+        "seo": 100
+      },
+      "terms": {
+        "accessibility": 100,
+        "seo": 100
+      }
+    },
+    "evidence": "reports/legal-pages-checks.json",
+    "reviewNotes": "reports/Legal-Pages-Review-Notes-2026-10-16.txt"
+  },
+  "productBrandYellow": {
+    "date": "2026-10-16",
+    "pages": [
+      "aaloapp/index.html",
+      "aalodot/index.html"
+    ],
+    "colour": "#FFCA08",
+    "published": false,
+    "viewportWidths": [
+      1440,
+      390,
+      320
+    ],
+    "checks": "passed",
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "evidence": "reports/brand-yellow-checks.json",
+    "note": "Earlier product-page Lighthouse scores predate this colour change."
+  },
+  "legalBrandYellow": {
+    "date": "2026-10-16",
+    "pages": [
+      "terms/index.html",
+      "privacy/index.html"
+    ],
+    "colour": "#FFCA08",
+    "published": false,
+    "viewportWidths": [
+      1440,
+      390,
+      320
+    ],
+    "checks": "passed",
+    "legalContentUnchanged": true,
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "evidence": "reports/legal-brand-yellow-checks.json",
+    "note": "Earlier legal-page Lighthouse scores predate this colour change."
+  },
+  "homeBrandYellow": {
+    "date": "2026-10-16",
+    "page": "index.html",
+    "colour": "#FFCA08",
+    "published": false,
+    "viewportWidths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "checks": "passed",
+    "contentUnchanged": true,
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "evidence": "reports/home-brand-yellow-checks.json",
+    "note": "Earlier homepage Lighthouse scores predate this colour change."
+  },
+  "productCardActions": {
+    "date": "2026-10-16",
+    "build": "passed",
+    "internalReferencesChecked": 249,
+    "cards": [
+      {
+        "name": "AaloApp",
+        "action": "Explore AaloApp",
+        "destination": "aaloapp/index.html",
+        "actions": 1,
+        "afterPrices": true,
+        "blackButton": true,
+        "prices": [
+          "US$1",
+          "US$2"
+        ]
+      },
+      {
+        "name": "AaloDot",
+        "action": "Explore AaloDot",
+        "destination": "aalodot/index.html",
+        "actions": 1,
+        "afterPrices": true,
+        "blackButton": true,
+        "prices": [
+          "US$39",
+          "US$49"
+        ]
+      }
+    ],
+    "browserVerification": "Not performed: browser URL policy denied access to the existing file:// preview.",
+    "published": false
+  },
+  "productVideos": {
+    "date": "2026-10-16",
+    "pages": [
+      "aaloapp/index.html",
+      "aalodot/index.html"
+    ],
+    "published": false,
+    "buildFiles": 38,
+    "internalReferencesChecked": 259,
+    "schemasParsed": 5,
+    "viewportWidths": [
+      1440,
+      768,
+      390,
+      320
+    ],
+    "evidence": "reports/product-video-checks.json",
+    "originalVideoBytesPreserved": true,
+    "audio": "Retained; not transcribed or editorially reviewed",
+    "captions": "No verified transcript available; none added"
+  },
+  "tryAaloAppNavigation": {
+    "date": "2026-10-16",
+    "links": [
+      {
+        "page": "index.html",
+        "href": "aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      },
+      {
+        "page": "index.html",
+        "href": "aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      },
+      {
+        "page": "aaloapp/index.html",
+        "href": "../aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      },
+      {
+        "page": "aaloapp/index.html",
+        "href": "../aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      },
+      {
+        "page": "aalodot/index.html",
+        "href": "../aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      },
+      {
+        "page": "terms/index.html",
+        "href": "../aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      },
+      {
+        "page": "privacy/index.html",
+        "href": "../aaloapp/index.html",
+        "localAndHostedDestination": "passed"
+      }
+    ],
+    "buildFiles": 38,
+    "checks": "passed",
+    "published": false
+  },
+  "aaloDotMainImage": {
+    "date": "2026-10-16",
+    "published": false,
+    "checks": [
+      {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 578.953125,
+        "height": 578.953125,
+        "frameWidth": 580.953125,
+        "frameHeight": 580.953125,
+        "filter": "none",
+        "source": "../assets/products/aalodot-overview.png"
+      },
+      {
+        "viewport": 768,
+        "documentWidth": 768,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 318,
+        "height": 318,
+        "frameWidth": 320,
+        "frameHeight": 320,
+        "filter": "none",
+        "source": "../assets/products/aalodot-overview.png"
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 348,
+        "height": 348,
+        "frameWidth": 350,
+        "frameHeight": 350,
+        "filter": "none",
+        "source": "../assets/products/aalodot-overview.png"
+      },
+      {
+        "viewport": 320,
+        "documentWidth": 320,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 286,
+        "height": 286,
+        "frameWidth": 288,
+        "frameHeight": 288,
+        "filter": "none",
+        "source": "../assets/products/aalodot-overview.png"
+      }
+    ],
+    "originalArtworkPreserved": true,
+    "homepageArtworkUnchanged": true,
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "buildFiles": 39
+  },
+  "aaloAppMainImage": {
+    "date": "2026-10-16",
+    "published": false,
+    "checks": [
+      {
+        "viewport": 1440,
+        "documentWidth": 1440,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 578.953125,
+        "height": 578.953125,
+        "frameWidth": 580.953125,
+        "frameHeight": 580.953125,
+        "source": "../assets/products/aaloapp-overview.png"
+      },
+      {
+        "viewport": 768,
+        "documentWidth": 768,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 318,
+        "height": 318,
+        "frameWidth": 320,
+        "frameHeight": 320,
+        "source": "../assets/products/aaloapp-overview.png"
+      },
+      {
+        "viewport": 390,
+        "documentWidth": 390,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 348,
+        "height": 348,
+        "frameWidth": 350,
+        "frameHeight": 350,
+        "source": "../assets/products/aaloapp-overview.png"
+      },
+      {
+        "viewport": 320,
+        "documentWidth": 320,
+        "naturalWidth": 1254,
+        "naturalHeight": 1254,
+        "width": 286,
+        "height": 286,
+        "frameWidth": 288,
+        "frameHeight": 288,
+        "source": "../assets/products/aaloapp-overview.png"
+      }
+    ],
+    "originalArtworkPreserved": true,
+    "homepageArtworkUnchanged": true,
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "buildFiles": 40
+  },
+  "googleAnalytics": {
+    "date": "2026-10-16",
+    "measurementId": "G-YYPTQER95H",
+    "published": false,
+    "testEventsSentToGoogle": false,
+    "checks": [
+      "All five pages: no external tag, cookies or events before consent or after rejection/reload.",
+      "Acceptance: consent order, ads denied, one tag/page view, saved choice across pages, product/contact and native-video events.",
+      "Withdrawal: cookies removed, loaded library unloaded, no further tag loads; refusal propagates to a second tab.",
+      "Local previews, no JavaScript, unavailable storage, invalid consent and expired consent fail closed.",
+      "Consent panel fits 1440, 768, 390 and 320px with both choices visible."
+    ],
+    "realTag": {
+      "collectionRequestsIntercepted": 1,
+      "correctMeasurementId": true,
+      "queryAndReferrerDetailsExcluded": true,
+      "cookieLifetimeUnder181Days": true,
+      "withdrawalVerified": true
+    },
+    "internalReferencesChecked": 281,
+    "schemasParsed": 5,
+    "buildFiles": 42,
+    "visualInspection": [
+      1440,
+      390
+    ],
+    "accountSettingsChanged": false,
+    "liveDashboardVerified": false
+  }
 }

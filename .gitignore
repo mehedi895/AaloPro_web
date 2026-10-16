@@ -1,0 +1,15 @@
+# Local operating-system files and generated downloads
+.DS_Store
+*.zip
+
+# Local verification output and retained draft documents
+/qa/
+/reports/*
+!/reports/.gitkeep
+
+# Dependencies and local configuration
+node_modules/
+*.log
+.env
+.env.*
+!.env.example

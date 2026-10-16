@@ -1,155 +1,162 @@
 {
-  "note": "All web image assets use the SVG file format. Logos and icons contain vector paths. Photographic artwork is embedded inside self-contained SVG files, not represented by vector paths.",
+  "note": "Recovered active website assets. Source artwork and provenance are documented in design-notes.md.",
   "assets": [
     {
-      "file": "assets/logo.svg",
-      "type": "true vector paths",
-      "width": 1413,
-      "height": 399
+      "file": "assets/brand/aaloapp-logo-transparent.png",
+      "bytes": 407694,
+      "sha256": "df3f2a590b3ee2da1777a3f3e4cd75f92f0d00b05c44b55e39003f0f824cde92"
     },
     {
-      "file": "assets/logo-stacked.svg",
-      "type": "true vector paths",
-      "width": 979,
-      "height": 694
+      "file": "assets/brand/aalodot-logo-transparent.png",
+      "bytes": 465632,
+      "sha256": "532029ac1d90372c96432c9973e3eda96be3f3c09a2daf055d448df417a5eb94"
+    },
+    {
+      "file": "assets/brand/aalopro-gold.png",
+      "bytes": 677679,
+      "sha256": "2951f7f9583a606df036fa9e40c13848a4e78d71407923bf8a50c3de55099ed0"
+    },
+    {
+      "file": "assets/brand/aalopro-header.png",
+      "bytes": 299832,
+      "sha256": "36efec5efe08d1399ce72d0581bce3dd17f1eb1c10f2bb62d6499cf9a74fc4ac"
     },
     {
       "file": "assets/bulb.svg",
-      "type": "true vector paths",
-      "width": 229,
-      "height": 399
+      "bytes": 5523,
+      "sha256": "736831a36b2d6f827cdc6433f1a75534e9f60a07e56704acb853edd44b82684b"
     },
     {
       "file": "assets/favicon.svg",
-      "type": "true vector paths"
+      "bytes": 5387,
+      "sha256": "70b8e3f126d7d24cf08f18b3e8b9d49326c67561556326d2957f43b6982d8de8"
     },
     {
-      "file": "assets/device-front.svg",
-      "type": "embedded photographic artwork",
-      "width": 571,
-      "height": 1049
+      "file": "assets/flags/bangladesh.png",
+      "bytes": 3028,
+      "sha256": "4d315d138b7c7a5dc77985ba25e93e6718c44fd464ba5f46beb8f3cad2b11327"
     },
     {
-      "file": "assets/device-pair.svg",
-      "type": "embedded photographic artwork",
-      "width": 1165,
-      "height": 1350
+      "file": "assets/flags/indonesia.svg",
+      "bytes": 148,
+      "sha256": "2ab57d2d418baba7b0ff55729435d0c780ca52a98b754f92d44e96cd1399dae5"
     },
     {
-      "file": "assets/students-hero.svg",
-      "type": "embedded photographic artwork",
-      "width": 319,
-      "height": 321
+      "file": "assets/flags/pakistan.svg",
+      "bytes": 707,
+      "sha256": "d6ace20003ef4172b2cb2f090614f06602fb139a900cd1c65c4f8cc17367bc37"
     },
     {
-      "file": "assets/student-bangladesh.svg",
-      "type": "embedded photographic artwork",
-      "width": 210,
-      "height": 147
+      "file": "assets/flags/philippines.webp",
+      "bytes": 36394,
+      "sha256": "0c4a0193d2c8405a07cc16e5e7cb1ef26781ed39c7bf7d61443ca8f9ecaef60d"
     },
     {
-      "file": "assets/student-pakistan.svg",
-      "type": "embedded photographic artwork",
-      "width": 234,
-      "height": 147
+      "file": "assets/flags/singapore.svg",
+      "bytes": 591,
+      "sha256": "261a4507c08c834e8e335ae147bde951010d92ef05330ff39f0d0eb713d2f617"
     },
     {
-      "file": "assets/student-future.svg",
-      "type": "embedded photographic artwork",
-      "width": 197,
-      "height": 159
+      "file": "assets/flags/vietnam.webp",
+      "bytes": 1136,
+      "sha256": "d1694796e8aa6a2cabea368c9ae2b56803b12c2c9796efa9d05f3a92f2e3141e"
     },
     {
-      "file": "assets/icons/arrow.svg",
-      "type": "true vector paths"
+      "file": "assets/fonts/Kalam-OFL.txt",
+      "bytes": 4373,
+      "sha256": "f62ef357d3a1c3d27edd35a6e1ba350e8a8d13499797964eeadefbf0b3b15d1f"
     },
     {
-      "file": "assets/icons/arrow-down.svg",
-      "type": "true vector paths"
+      "file": "assets/fonts/NunitoSans-OFL.txt",
+      "bytes": 4393,
+      "sha256": "efbb0c9e864cef973982d9a17567e6be5c3d1759695574586f3f18c7ecca064b"
     },
     {
-      "file": "assets/icons/check.svg",
-      "type": "true vector paths"
+      "file": "assets/fonts/kalam.woff2",
+      "bytes": 14040,
+      "sha256": "257f0129d54c60cda0f8856ad1de05e760a219c9365fb19cd50b0cc8fdb2c9d1"
     },
     {
-      "file": "assets/icons/phone.svg",
-      "type": "true vector paths"
+      "file": "assets/fonts/nunito-sans.woff2",
+      "bytes": 30948,
+      "sha256": "39184f4d011106f5bfbe3813d3a8c3673663f04a45a9c9f55b1ed15f4d5b1cc9"
     },
     {
-      "file": "assets/icons/book.svg",
-      "type": "true vector paths"
+      "file": "assets/generated/aaloapp-phone-transparent.png",
+      "bytes": 1186235,
+      "sha256": "9af7ad35ba2959f307331b86b56e8103e2d0f88e686a6f169f90b65cf2afea11"
     },
     {
-      "file": "assets/icons/bluetooth.svg",
-      "type": "true vector paths"
+      "file": "assets/generated/aalodot.webp",
+      "bytes": 161304,
+      "sha256": "d42cb7e3c2f4d8531b25d27809aecc991e836d1bc518e8538aded64a0bff4598"
     },
     {
-      "file": "assets/icons/offline.svg",
-      "type": "true vector paths"
+      "file": "assets/generated/hero.webp",
+      "bytes": 147922,
+      "sha256": "810da40bcbe109f070984071f46cbdb463c13717e0fe60c317658cf20b028397"
     },
     {
-      "file": "assets/icons/chat.svg",
-      "type": "true vector paths"
+      "file": "assets/generated/impact.webp",
+      "bytes": 111962,
+      "sha256": "9790b1fef136a4a4eaec6a847fd6b83534f9ca04372051f0bafef9ad9f09587d"
     },
     {
-      "file": "assets/icons/chart.svg",
-      "type": "true vector paths"
+      "file": "assets/reference/ayesha.webp",
+      "bytes": 3006,
+      "sha256": "1cc7860b1c12cfd7eab2402cc8ae532c21aad29548547b716806b48dd27f16aa"
     },
     {
-      "file": "assets/icons/people.svg",
-      "type": "true vector paths"
+      "file": "assets/reference/fatima.webp",
+      "bytes": 2844,
+      "sha256": "ebb4ddac79ca98a6595214f77461daf08286a8e8e5d1b00ead67efe5d4b5f8e4"
     },
     {
-      "file": "assets/icons/family.svg",
-      "type": "true vector paths"
+      "file": "assets/reference/rafi.webp",
+      "bytes": 3110,
+      "sha256": "34bad753ea022fa6579b0f3e12db669ffa4cf63e67239f77c6d051536034577c"
     },
     {
-      "file": "assets/icons/globe.svg",
-      "type": "true vector paths"
+      "file": "assets/videos/aaloapp-preview.mp4",
+      "bytes": 2749289,
+      "sha256": "6d593684d20666cf104ab04691f4977f4f8a60f105e66203c8353deb23f786f0",
+      "source": "gemini_generated_video_3ada843b.mp4",
+      "processing": "Unmodified original video"
     },
     {
-      "file": "assets/icons/gear.svg",
-      "type": "true vector paths"
+      "file": "assets/videos/aaloapp-preview.webp",
+      "bytes": 40180,
+      "sha256": "b43f7515bd07242b1186fd8d548854cd09ff2ec885b09b6646924937078551f8",
+      "source": "gemini_generated_video_3ada843b.mp4",
+      "processing": "Preview frame extracted at 0.5 seconds, encoded as WebP"
     },
     {
-      "file": "assets/icons/mail.svg",
-      "type": "true vector paths"
+      "file": "assets/videos/aalodot-preview.mp4",
+      "bytes": 2727735,
+      "sha256": "e2fad41efbaea3260b3513f37adde8ef6dccde92244d5e6804f2dd94bbe00c77",
+      "source": "gemini_generated_video_e5779cc5.mp4",
+      "processing": "Unmodified original video"
     },
     {
-      "file": "assets/icons/shield.svg",
-      "type": "true vector paths"
+      "file": "assets/videos/aalodot-preview.webp",
+      "bytes": 33260,
+      "sha256": "82291cf3e07028d2e444d7f13770710ea3d1164205865a5e3e2d5269063d220a",
+      "source": "gemini_generated_video_e5779cc5.mp4",
+      "processing": "Preview frame extracted at 2.0 seconds, encoded as WebP"
     },
     {
-      "file": "assets/icons/notes.svg",
-      "type": "true vector paths"
+      "file": "assets/products/aalodot-overview.png",
+      "bytes": 1764205,
+      "sha256": "59820827874ba41f27ac58b007fd66baf4ff8645082fadeaf3c12c937ee9fa2a",
+      "source": "AaloDot.png",
+      "processing": "Unmodified user-supplied artwork for the AaloDot detail page"
     },
     {
-      "file": "assets/icons/home.svg",
-      "type": "true vector paths"
-    },
-    {
-      "file": "assets/icons/history.svg",
-      "type": "true vector paths"
-    },
-    {
-      "file": "assets/icons/sparkles.svg",
-      "type": "true vector paths"
-    },
-    {
-      "file": "assets/icons/menu.svg",
-      "type": "true vector paths"
-    },
-    {
-      "file": "assets/icons/close.svg",
-      "type": "true vector paths"
-    },
-    {
-      "file": "assets/icons/help.svg",
-      "type": "true vector paths"
-    },
-    {
-      "file": "assets/singapore.svg",
-      "type": "true vector paths"
+      "file": "assets/products/aaloapp-overview.png",
+      "bytes": 1911281,
+      "sha256": "73f09e8828623f8a4dbdbd09808bd7fb68c7a21c0fe3aad495aa8d0912690aa5",
+      "source": "AaloApp.png",
+      "processing": "Unmodified user-supplied artwork for the AaloApp detail page"
     }
   ]
 }
