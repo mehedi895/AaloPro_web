@@ -1,8 +1,6 @@
 const header = document.querySelector('.site-header');
 const menu = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
-const dialog = document.querySelector('.app-dialog');
-let dialogTrigger = null;
 
 function setMenuBackground(open) {
   document.body.classList.toggle('menu-open', open);
@@ -29,7 +27,7 @@ document.addEventListener('click', event => {
   if (!header.contains(event.target)) closeMenu();
 });
 document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && !dialog.open) closeMenu({ restoreFocus: true });
+  if (event.key === 'Escape') closeMenu({ restoreFocus: true });
   if (event.key === 'Tab' && menu.getAttribute('aria-expanded') === 'true') {
     const controls = [...header.querySelectorAll('a,button')].filter(control => control.getClientRects().length);
     const first = controls[0], last = controls.at(-1);
@@ -39,23 +37,6 @@ document.addEventListener('keydown', event => {
 });
 matchMedia('(min-width: 961px)').addEventListener('change', event => {
   if (event.matches) closeMenu();
-});
-document.querySelectorAll('[data-app-open]').forEach(button => {
-  button.addEventListener('click', () => {
-    dialogTrigger = button;
-    closeMenu();
-    dialog.showModal();
-    document.body.classList.add('dialog-open');
-  });
-});
-document.querySelectorAll('[data-app-close]').forEach(button => button.addEventListener('click', () => dialog.close()));
-dialog.addEventListener('click', event => {
-  const bounds = dialog.getBoundingClientRect();
-  if (event.target === dialog && (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom)) dialog.close();
-});
-dialog.addEventListener('close', () => {
-  document.body.classList.remove('dialog-open');
-  dialogTrigger?.focus();
 });
 // Keep scroll work out of the rendering loop, and leave content visible without JS.
 if ('IntersectionObserver' in window) {

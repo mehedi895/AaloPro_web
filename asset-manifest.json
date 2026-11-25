@@ -368,6 +368,16 @@
       "bytes": 4387,
       "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
       "source": "https://github.com/google/fonts/tree/main/ofl/manrope"
+    },
+    {
+      "file": "assets/brand/google-play-badge.png",
+      "bytes": 819665,
+      "sha256": "cd367f24726f4ab9225215e57b58ba5e6fecffbc709bad0ae50767ad4fe81f53"
+    },
+    {
+      "file": "assets/responsive/google-play-badge-600.webp",
+      "bytes": 20692,
+      "sha256": "72cc08dbd30ab21f105a79d7514e50245dcff934097edecf20770a69b14d155b"
     }
   ]
 }

@@ -234,7 +234,7 @@ p,blockquote{ text-wrap:pretty }
   .header-cta{font-size:.75rem;line-height:1rem;padding:8px 12px}
   .home-page .hero-copy{width:100%}
   .home-page #hero-title{font:var(--heading-3);letter-spacing:-.035em}
-  .home-page .hero-content{padding-top:32px;padding-bottom:320px;min-height:max(790px,calc(100dvh - 76px))}
+  .home-page .hero-content{padding-top:32px;padding-bottom:calc(370px + var(--space-300));min-height:max(790px,calc(100dvh - 76px))}
   .home-page .hero-eyebrow{margin-bottom:24px}
   .home-page .hero-description{margin-top:24px;max-width:34ch}
   .home-page .hero-actions{margin-top:24px}
@@ -300,3 +300,14 @@ p,blockquote{ text-wrap:pretty }
   .nav-links.is-open a:nth-child(2){animation-delay:60ms}.nav-links.is-open a:nth-child(3){animation-delay:120ms}.nav-links.is-open a:nth-child(4){animation-delay:180ms}
   @keyframes menu-arrive{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
 }
+
+
+/* Store badge: preserve its proportions and align with adjacent actions. */
+.google-play-link{display:inline-flex;inline-size:192px;max-inline-size:100%;min-block-size:48px;border-radius:8px;transition:transform 300ms var(--ease-out)}
+.google-play-link img{inline-size:100%;block-size:auto;object-fit:contain}
+.google-play-link:hover{transform:translateY(-2px)}
+.google-play-link:active{transform:scale(.98)}
+.google-play-link:focus-visible{outline:3px solid #1476a5;outline-offset:4px}
+.home-page .hero-actions,.detail-actions{align-items:center}
+@media(prefers-reduced-motion:reduce){.google-play-link{transition:none}.google-play-link:hover,.google-play-link:active{transform:none}}
+@media(forced-colors:active){.google-play-link{outline:1px solid LinkText}.google-play-link:focus-visible{outline:3px solid Highlight}}

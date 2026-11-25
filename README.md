@@ -26,7 +26,7 @@ The browser verification script requires Playwright and Chrome. Serve the websit
 - Footer: AALO PRO PTE. LTD. | 10 BUKIT BATOK CRESCENT, #10-05B THE SPIRE, SINGAPORE 658079.
 - Get in touch: `help@aalopro.com`. Product cards link to their detail pages.
 - Premium gold and charcoal SVG icons in the Why AaloPro, AaloApp, and AaloDot sections.
-- Try AaloApp buttons link directly to the AaloApp detail page. Public app store links are still coming soon.
+- The homepage and AaloApp hero download badges link directly to AaloApp BD Primary on Google Play. Explore AaloApp links continue to open the editions page.
 
 ## Files and verification
 
@@ -211,3 +211,18 @@ Removed the incomplete AaloDot `Product` object and its `WebPage.mainEntity` ref
 Published to the existing `aalopro.com` Worker `red-snow-e6ee` as version `2f094e53-c1d3-4d75-88be-d624f90e59cc`. Only `/aalodot/index.html` changed in the deployment. The source and `dist/` copies match the live page byte for byte.
 
 Validation: the static build and deployment dry run passed; the JSON-LD parses correctly and has no dangling product reference. Google's live Rich Results Test detected two valid items (Breadcrumbs and Organization) and no invalid Product item: https://search.google.com/test/rich-results/result?id=MfV7tzMwPjCgSqf39uW_Mw . Search Console's historical issue report will update after validation or recrawling. The separate `sweet-poetry-0acd` deployment was not updated by this fix.
+
+
+## Google Play download badge — 25 November 2026
+
+The homepage and AaloApp hero now feature a Google Play badge linking to [https://play.google.com/store/apps/details?id=com.aalopro.bd.aaloapp](https://play.google.com/store/apps/details?id=com.aalopro.bd.aaloapp). The released app is **AaloApp BD Primary**, identified in the accessible link text. The visible edition caption and homepage Meet AaloDot hero button were removed as requested; the Google Play badge is the sole homepage hero action. The AaloApp page keeps its vertically centered pricing link beside the badge. Internal Explore AaloApp links remain available for learning about the other editions.
+
+Removed the stale app-store coming-soon messages and unused launch dialogs, and updated the AaloApp metadata and download FAQ. The supplied badge was edited with the built-in image tool to remove its white background and preserve the logo, wording and black badge. The transparent PNG source is `assets/brand/google-play-badge.png`; its 600 × 200 WebP delivery asset is `assets/responsive/google-play-badge-600.webp`.
+
+Image-edit prompt: Remove the surrounding white square and excessive whitespace; preserve the Google Play triangle, black rounded rectangle, gray border and exact GET IT ON / Google Play wording; use transparent corners and a closely fitted horizontal canvas. Web delivery preserves alpha and aspect ratio.
+
+Modern Web Guidance: native links handle navigation without JavaScript; meaningful image alt text names the app and store; explicit image dimensions reserve layout space. The badge includes hover, active and keyboard-focus states and respects reduced motion.
+
+Validation: the 80-file static build, JavaScript syntax check and Wrangler dry run passed. JSON-LD and local asset references validated on all five updated pages. Desktop and 320/390 px mobile checks confirmed the simplified homepage hero, no horizontal overflow and 24 px clearance above the mobile hero image. The AaloApp badge and pricing link share a vertical center when side by side; they wrap at narrow widths. Keyboard focus, store navigation and mobile-menu Escape behavior were checked.
+
+Published to `aalopro.com` via the existing `red-snow-e6ee` Worker as version `b8625849-9874-4db9-bea8-1f5c4b56f6c1`. All eight uploaded pages/assets were verified byte for byte against `dist/`, and the live homepage was checked visually.
