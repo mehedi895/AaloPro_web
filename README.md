@@ -4,7 +4,7 @@ Recovered on 16 October 2026 after the working files were accidentally deleted. 
 
 ## Open and build
 
-Open `index.html` in a browser. Keep all extracted files and folders together, including the product and legal page folders and their stylesheets. Website artwork and fonts are local. The optional Google Analytics tag is the only added third-party script and loads only after analytics consent on the production domain.
+Open `index.html` in a browser. Keep all extracted files and folders together, including the product and legal page folders and their stylesheets. Website artwork and fonts are local. The source-controlled Google Analytics tag loads only after analytics consent on the production domain. Hosting may inject additional scripts; see the November review below.
 
 Run `node scripts/build.cjs` to build `dist/`. The build validates its input files before replacing that generated folder. No dependency installation is needed to use or build the website.
 
@@ -30,7 +30,7 @@ The browser verification script requires Playwright and Chrome. Serve the websit
 
 ## Files and verification
 
-`index.html` contains page content, semantic pricing lists, and SVG icons. `styles.css` contains responsive styling. `script.js` handles navigation, the accessible dialog, and the copyright year. `asset-manifest.json` records active asset hashes. `quality-checks.json` records the recovery checks; `qa/` contains screenshots.
+`index.html` contains page content, semantic pricing lists, and SVG icons. `styles.css` contains responsive styling. `script.js` handles navigation and the accessible dialog. `asset-manifest.json` records active asset hashes. `quality-checks.json` records the recovery checks; `qa/` contains screenshots.
 
 Recovery checks covered 1440, 1201, 1024, 721, 640, 480, 390, and 320px widths, image/font loading, anchors, overflow, pricing, artwork clearance, menu operation, dialog operation, and focus restoration.
 
@@ -135,3 +135,79 @@ Page-location overrides use the page's canonical URL, and referrer overrides ret
 Privacy Policy section 11 now describes the provider, choices, identifiers, cookie lifetime, withdrawal, processing and limitations. Deployment remains manual: upload the full latest ZIP to the existing host. Verify live collection in the GA4 Realtime report after accepting analytics. A public Measurement ID is not an account credential, and no password or API secret is embedded.
 
 Browser checks use local build files with an intercepted production origin. Google collection requests are fulfilled locally, so verification does not pollute the live property. Run `node scripts/verify-analytics.cjs /path/to/downloaded-gtag.js` with Playwright available. Evidence: `reports/analytics-checks.json`; browser screenshots: `qa/analytics-consent-*.png`. Receiving data in the actual Google Analytics dashboard must be checked after deployment.
+
+## Footer social links — 17 October 2026
+
+The copyright line has been replaced on all five pages with LinkedIn, YouTube, Facebook, Instagram and TikTok links supplied by the founder. The icons use light grey with brand-yellow hover and keyboard-focus states, accessible platform labels and 42px targets. Links open in a new tab with `noopener noreferrer`. The same profile URLs are listed under the Organization structured data. Social links do not load platform scripts or embeds. Icons are from Bootstrap Icons v1.13.1; the MIT license is included at `assets/icons/bootstrap-icons-LICENSE.txt`.
+
+## Yellow header and supplied logo — 6 November 2026
+
+All five page headers use brand yellow (#FFCA08), dark navigation and a black Try AaloApp button. The header uses `assets/brand/aalopro-header-transparent.png`, with a real transparent alpha channel, so no CSS filters or blend modes are needed to hide its background. CSS frames the artwork at the existing responsive sizes. Mobile menus use the same yellow. Organization metadata references the transparent logo; the homepage sharing image retains the supplied yellow-background version in `assets/brand/aalopro-header-yellow.png`. The stylesheet URL is versioned for the 10 November 2026 logo update to avoid stale cached styling.
+
+The matching supplied golden-yellow lowercase footer logo is now used on all five pages. Its original file is retained at `assets/brand/aalopro-footer-yellow.png`; proportional CSS framing removes excess empty space while preserving the full bulb and wordmark.
+
+## Modern Web Guidance and Foundation update — 16 November 2026
+
+- Added `foundation/index.html`, with live Bengali text and photos displayed from the supplied Foundation reference. `foundation/foundation.css` provides desktop and mobile layouts; Bengali fonts are hosted locally with their OFL license. The page links back to the main website and uses `help@aalopro.com` for enquiries. No donation, registration-status or impact claims have been added beyond the supplied reference.
+- Only the existing header “Try AaloApp” links now read “AaloPro Foundation” and link to the new page. All other existing buttons and their destinations are preserved at the founder's request.
+- The homepage “Brighter Tomorrows.” remains the original brand yellow at the founder's request. Product-page heading accents use a darker tone for contrast.
+- Markets heading: “Started in Bangladesh. Expanding across emerging markets in South and South East Asia.”
+- Added responsive WebP images with `srcset`/`sizes`, preserving the original artwork and intrinsic dimensions. Original PNGs remain available. `scripts/optimize-images.cjs` is an optional regeneration utility requiring Sharp; normal builds remain dependency-free.
+- Reserved space for the non-modal analytics panel and kept keyboard focus above it. Corrected landmark and rating labels. Primary navigation now also works on mobile with JavaScript disabled.
+- `_headers` supplies basic MIME, referrer, framing and unused-permission protections. These headers were verified on the live Cloudflare Workers response after deployment.
+
+Run `node scripts/build.cjs` to rebuild `dist/`. Upload the complete contents of `dist/`, including `foundation/`, new fonts, responsive images and `_headers`, to the current hosting. The Foundation canonical URL is `https://aalopro.com/foundation/`; it is included in the sitemap.
+
+Validation: `node scripts/verify-modern-web.cjs http://127.0.0.1:8080/` checks six pages at 320, 390, 768, 1024 and 1440px, keyboard navigation, consent-banner focus, assets, metadata, and navigation without JavaScript. Set `AALOPRO_PLAYWRIGHT_PATH` to an existing Playwright installation and optionally `AALOPRO_AXE_PATH` to `axe.min.js`. The existing analytics test intercepts all collection requests locally. Local evidence is retained under `reports/modern-web-2026-11-16/`.
+
+Hosting follow-up: the live audit observed Cloudflare's injected `beacon.min.js` and `/cdn-cgi/rum` performance requests before a consent choice. This is separate from the Google Analytics code in this repository. Review Web Analytics/Observatory automatic injection in the Cloudflare dashboard if all optional measurement should follow the banner choice. The local package does not change that account setting.
+
+### Cloudflare production deployment — 16 November 2026
+
+The update is published at `https://aalopro.com/`, with the Foundation page at `https://aalopro.com/foundation/`. The existing host is the static-assets Worker `red-snow-e6ee` in Mehedi Account, not Cloudflare Pages. `wrangler.jsonc` records the existing custom domain, workers.dev access, disabled preview URLs, HTML handling and compatibility date (`2026-11-10`). The prior deployment had no Worker code or resource bindings; this remains a static website.
+
+To publish future prepared updates, run `node scripts/build.cjs`, then `pnpm dlx wrangler@4.162.0 deploy --keep-vars`. Authenticate through `wrangler login` if required; credentials are not stored in this repository. The production version for this release is `bc36f591-db21-4c05-adc2-a9dc4e3a343d`; the previous version was `bd61412b-1849-4fbc-a0f2-06c619433d61`.
+
+For live verification, run the modern-web verification script against `https://aalopro.com/`. Set `AALOPRO_VERIFY_OUTPUT` to a separate directory to preserve the local verification evidence.
+
+## Landing-page design refresh — 17 November 2026
+
+Applied the founder-requested `landing-page-design` skill. The skill is installed at `~/.codex/skills/landing-page-design/SKILL.md`, and the preference to use it for future website/UI work is recorded in `~/.codex/AGENTS.md`.
+
+`design-system.css` adds locally hosted Manrope, named typography tokens, consistent spacing, flatter product cards, open benefit/quote layouts, and stronger 18px navigation. The approved full-screen hero, yellow branding, supplied logos and original product facts are retained. The homepage adds a learning walkthrough, benefit statement, six concise FAQs and a closing product link. No download or purchase availability is implied: store links are still coming soon and AaloDot remains planned for early 2027.
+
+`script.js` uses IntersectionObserver for the header state, current section, and optional one-time reveals. The mobile menu expands below the header, traps focus within the navigation while open, keeps background content inert, and supports Escape. Reduced-motion and no-JavaScript experiences keep content visible. `404.html` is a branded recovery page; Workers uses `assets.not_found_handling: "404-page"` to retain a proper HTTP 404 response, following https://developers.cloudflare.com/workers/static-assets/routing/static-site-generation/.
+
+The scoped visual brief is in `founder/brand.md`; the Manrope font source and checksums are in `asset-manifest.json`. Original artwork and product copy remain in place. Validation evidence and desktop/mobile previews are under `reports/design-refresh-2026-11-17/` (excluded from deployment).
+
+Published to the existing Cloudflare Worker as version `5b79153e-0fa0-4948-a3c9-c5af3a526f99` on 17 November 2026. Previous production version: `e39ca35f-3e7a-47c8-8334-367b5fb3af31`. Validation: 30 page/viewport checks across six pages; keyboard and no-JavaScript checks; dedicated menu, motion and 404 layout checks at 320, 390, 768, 1024 and 1440px.
+
+Footer refinement, 17 November 2026: moved “Built in Singapore for emerging markets.” and its Singapore flag from the homepage hero to the footer. The sentence appears once, with the original wording. Confirmed no horizontal overflow at 320, 390 and 1440px; screenshots are in `reports/footer-origin-2026-11-17/`.
+
+Footer placement follow-up: the Singapore flag and origin sentence now belong to the logo group, directly beneath the AaloPro logo on all homepage breakpoints. The footer columns align at the top across the shared layout. Checks and screenshots are under `reports/footer-logo-2026-11-17/`.
+
+## Foundation colour and header update — 17 November 2026
+
+The Foundation page now has a yellow header, mint hero, teal statement section, peach/green/lavender programme cards, warm peach story section and dark teal footer. Existing Bengali content and photographs are retained. The header email action is replaced by “Back to AaloPro Main Website”, linking to `../index.html`; the contact-section email remains available. Responsive checks at 320, 390, 768, 1024 and 1440px passed, including text contrast (minimum measured 5.11:1), font loading, anchor destinations, keyboard focus and the return link. No-JavaScript navigation and forced-colour checks also passed. Evidence is in `reports/foundation-colour-2026-11-17/`.
+
+Both Foundation updates are published as Cloudflare version `570b7ca9-6271-4660-9a79-f42e463127f5`; the live HTML and stylesheet were verified after deployment.
+
+Headline refinements, 17 November 2026: the AaloApp and AaloDot hero headlines now pair black text with the exact homepage yellow (`#ffca08`), replacing the darker gold accent at the founder’s explicit request. Their banner backgrounds are unchanged. The homepage markets heading uses the full content width so the sentence fits one line on large screens, retaining natural wrapping on smaller screens.
+
+Published headline updates as Cloudflare version `4ad421b9-f798-4f10-8588-f462a11e8df9`. Verified live stylesheet bytes and page version references. Local checks covered all three pages at 320, 390, 1024, 1280 and 1440px, including exact heading colours, no overflow, and the markets sentence on one line from 1024px.
+
+## Additional Cloudflare deployment — 23 November 2026
+
+The full approved website is also published at https://sweet-poetry-0acd.mehedi-f58.workers.dev using the existing Worker `sweet-poetry-0acd` in Mehedi Account. Version: `885c99c5-ad70-472d-80c9-1f679be73f48`. Its separate configuration is `wrangler.sweet-poetry-0acd.jsonc`, preserving the target's compatibility date, observability settings and public workers.dev access. The `aalopro.com` domain remains attached to `red-snow-e6ee`; its deployment was not changed.
+
+To update this additional target, run `node scripts/build.cjs`, then `pnpm dlx wrangler@4.162.0 deploy --config wrangler.sweet-poetry-0acd.jsonc --keep-vars`. Canonical URLs continue to point to `aalopro.com`.
+
+Validation: deployment dry run passed; all 77 public page and asset files matched the local build byte for byte, including both videos. The branded missing-page response returned HTTP 404 and matched the build; configured response headers were present. Evidence: `reports/deploy-sweet-poetry-0acd-2026-11-23/live-checks.json`.
+
+## AaloDot structured data fix — 25 November 2026
+
+Removed the incomplete AaloDot `Product` object and its `WebPage.mainEntity` reference. AaloDot remains in planning with provisional prices and no ordering or preorder offer, so its page retains `Organization`, `WebSite`, `WebPage` and `BreadcrumbList` structured data. No prices, ratings or availability claims were added. The visible page content is unchanged.
+
+Published to the existing `aalopro.com` Worker `red-snow-e6ee` as version `2f094e53-c1d3-4d75-88be-d624f90e59cc`. Only `/aalodot/index.html` changed in the deployment. The source and `dist/` copies match the live page byte for byte.
+
+Validation: the static build and deployment dry run passed; the JSON-LD parses correctly and has no dangling product reference. Google's live Rich Results Test detected two valid items (Breadcrumbs and Organization) and no invalid Product item: https://search.google.com/test/rich-results/result?id=MfV7tzMwPjCgSqf39uW_Mw . Search Console's historical issue report will update after validation or recrawling. The separate `sweet-poetry-0acd` deployment was not updated by this fix.

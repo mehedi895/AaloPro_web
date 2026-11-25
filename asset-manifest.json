@@ -157,6 +157,217 @@
       "sha256": "73f09e8828623f8a4dbdbd09808bd7fb68c7a21c0fe3aad495aa8d0912690aa5",
       "source": "AaloApp.png",
       "processing": "Unmodified user-supplied artwork for the AaloApp detail page"
+    },
+    {
+      "file": "assets/icons/bootstrap-icons-LICENSE.txt",
+      "bytes": 1093,
+      "sha256": "0fb3e11bd57e896c5a512afd64864d28a37de45d19835016c87ca1ad19ead969",
+      "source": "https://github.com/twbs/icons/tree/v1.13.1",
+      "note": "MIT license for the five inline footer social icons"
+    },
+    {
+      "file": "assets/brand/aalopro-header-yellow.png",
+      "bytes": 1133099,
+      "sha256": "5c9b6e36643d26c5ef3e586465c3142663ac5736283bc4a953e8d34d2c145148",
+      "source": "Aalopro Lightbulb Logo.png",
+      "processing": "Unmodified supplied logo retained for homepage social sharing and as the original artwork."
+    },
+    {
+      "file": "assets/brand/aalopro-footer-yellow.png",
+      "bytes": 600336,
+      "sha256": "3735e061f0f77c3c3c231bf97e4d716c5134e43cdbf2683ebe0624855fda893c",
+      "source": "Golden Yellow Aalopro Logo on Black.png",
+      "processing": "Unmodified supplied footer logo, framed with CSS to remove excess visible padding."
+    },
+    {
+      "file": "assets/brand/aalopro-header-transparent.png",
+      "bytes": 218564,
+      "sha256": "98246bd9d73b4615527c196b2742560d7dba54d30a3def2c28b56d1c28d5adfd",
+      "source": "Aalopro Lightbulb Logo.png",
+      "processing": "Yellow background removed with the built-in image-editing tool; true transparent PNG replaces the CSS filter and blend-mode treatment in all five headers."
+    },
+    {
+      "file": "assets/responsive/aalopro-header-320.webp",
+      "bytes": 5148,
+      "sha256": "68ddd97028c57844984648f4ea46b36084b00bfa7768a04ec165d2e8bb59299b",
+      "source": "assets/brand/aalopro-header-transparent.png",
+      "processing": "Full-canvas resize to 320\u00d7107; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalopro-header-640.webp",
+      "bytes": 11504,
+      "sha256": "e737af7aac4833fbb1ecabf493257fada887080baead709a8786b30a79ba3327",
+      "source": "assets/brand/aalopro-header-transparent.png",
+      "processing": "Full-canvas resize to 640\u00d7213; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalopro-header-960.webp",
+      "bytes": 18072,
+      "sha256": "2b0ca466c1489398c5324de78457eaed3a7607cb3655f744f621cb2d077d0fe2",
+      "source": "assets/brand/aalopro-header-transparent.png",
+      "processing": "Full-canvas resize to 960\u00d7320; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalopro-footer-320.webp",
+      "bytes": 5878,
+      "sha256": "2aeb202a79fef49fab95997458b47bba5c0514a4e5e65d2fc53890d166db7a26",
+      "source": "assets/brand/aalopro-footer-yellow.png",
+      "processing": "Full-canvas resize to 320\u00d7180; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalopro-footer-640.webp",
+      "bytes": 12150,
+      "sha256": "2428de2ff41d92c3f9a3a985eeaafebbc330629513f5ae04a76d7b45e506d5df",
+      "source": "assets/brand/aalopro-footer-yellow.png",
+      "processing": "Full-canvas resize to 640\u00d7360; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalopro-footer-960.webp",
+      "bytes": 19244,
+      "sha256": "230e10d18708f245d3b734721dd54e56872feef8b3f076f41c4eeaf6705ec900",
+      "source": "assets/brand/aalopro-footer-yellow.png",
+      "processing": "Full-canvas resize to 960\u00d7540; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-logo-320.webp",
+      "bytes": 11980,
+      "sha256": "4c218a7e56087a5316fba0ce185ef73ce640c1e1132180cd0b21deb534385eea",
+      "source": "assets/brand/aaloapp-logo-transparent.png",
+      "processing": "Full-canvas resize to 320\u00d7180; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-logo-640.webp",
+      "bytes": 27980,
+      "sha256": "9bbe612bef388d0f724ec0a0e0af0dbc2663426a0d62be5ee64aa4273b1cb4c2",
+      "source": "assets/brand/aaloapp-logo-transparent.png",
+      "processing": "Full-canvas resize to 640\u00d7360; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-logo-320.webp",
+      "bytes": 13204,
+      "sha256": "6c8a39e11a2b98853fbef71cdf306cc2c3e8d78d574fe30690ad0fef248dcb13",
+      "source": "assets/brand/aalodot-logo-transparent.png",
+      "processing": "Full-canvas resize to 320\u00d7137; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-logo-640.webp",
+      "bytes": 30332,
+      "sha256": "4e5f8095a929f00a4dff9d45555d2a14733f21ddeeb2f530df086faac4a6cebc",
+      "source": "assets/brand/aalodot-logo-transparent.png",
+      "processing": "Full-canvas resize to 640\u00d7274; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-phone-240.webp",
+      "bytes": 19686,
+      "sha256": "17f7ca49baf4fbeea71cf19a657c4f7a4cc221bb046671e1dd572f3b450132d5",
+      "source": "assets/generated/aaloapp-phone-transparent.png",
+      "processing": "Full-canvas resize to 240\u00d7300; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-phone-480.webp",
+      "bytes": 51644,
+      "sha256": "fdfa2051593e1a48f1353bda8f4dd16f451036c165e65ce37e333e7065465e10",
+      "source": "assets/generated/aaloapp-phone-transparent.png",
+      "processing": "Full-canvas resize to 480\u00d7600; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-phone-720.webp",
+      "bytes": 89824,
+      "sha256": "b4d5694b7ea17ea18e1799f3018c8d3ea8aed500fb8c9b3de968a00813ed578f",
+      "source": "assets/generated/aaloapp-phone-transparent.png",
+      "processing": "Full-canvas resize to 720\u00d7900; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-320.webp",
+      "bytes": 21816,
+      "sha256": "008ab6bf680a0530732830aed6712099e613b06e3fdd875fa4389006003d7c9d",
+      "source": "assets/generated/aalodot.webp",
+      "processing": "Full-canvas resize to 320\u00d7320; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-640.webp",
+      "bytes": 57768,
+      "sha256": "a07577592761e87a1995f0bc9200b4d2817394760dbf5c3639ac508583fab55d",
+      "source": "assets/generated/aalodot.webp",
+      "processing": "Full-canvas resize to 640\u00d7640; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-overview-480.webp",
+      "bytes": 59788,
+      "sha256": "f6e9b4f675a7bd0a4c44bcb4700b8fc1f445ce5ae6d976f7a2f4a304c81a8e72",
+      "source": "assets/products/aaloapp-overview.png",
+      "processing": "Full-canvas resize to 480\u00d7480; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-overview-800.webp",
+      "bytes": 120824,
+      "sha256": "75195dd279af24454aa5ba9ad9b8b91e4e5429cad12260d0058577c64cb44aab",
+      "source": "assets/products/aaloapp-overview.png",
+      "processing": "Full-canvas resize to 800\u00d7800; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aaloapp-overview-1254.webp",
+      "bytes": 215952,
+      "sha256": "dd8aa92b5cff257fed33dee2cf506629cb53db93ef140b379c7c0dd15e18278c",
+      "source": "assets/products/aaloapp-overview.png",
+      "processing": "Full-canvas resize to 1254\u00d71254; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-overview-480.webp",
+      "bytes": 39788,
+      "sha256": "7b05801920101d511044b1b9ea1b324d141bce36760958e0335866e04659c119",
+      "source": "assets/products/aalodot-overview.png",
+      "processing": "Full-canvas resize to 480\u00d7480; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-overview-800.webp",
+      "bytes": 80210,
+      "sha256": "da994a33177b98d8d9d231fc1e3fa581555b000ea52496f9e0525e573c1fad27",
+      "source": "assets/products/aalodot-overview.png",
+      "processing": "Full-canvas resize to 800\u00d7800; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/responsive/aalodot-overview-1254.webp",
+      "bytes": 137928,
+      "sha256": "f8bdfb2d3b235da1f6bd72e1f05a88b2a53b541d92692c2b86aa4484553ac175",
+      "source": "assets/products/aalodot-overview.png",
+      "processing": "Full-canvas resize to 1254\u00d71254; WebP quality 90; original retained"
+    },
+    {
+      "file": "assets/foundation/reference-optimized.webp",
+      "bytes": 288700,
+      "sha256": "867461b47f58c2365461438d6d46d245d7e052fc605243d2139f5d1fbda973c5",
+      "source": "User-supplied AaloPro Foundation reference, full-canvas WebP encoding"
+    },
+    {
+      "file": "assets/fonts/noto-sans-bengali.woff2",
+      "bytes": 107884,
+      "sha256": "d8cebde0595ce46cfbf85911792fc7cb5525d8ba61e1a2f8979cb4389d40c948",
+      "source": "Google Fonts: Noto Sans Bengali (SIL Open Font License)"
+    },
+    {
+      "file": "assets/fonts/noto-sans-bengali-latin.woff2",
+      "bytes": 25652,
+      "sha256": "58c6bc805295744df0cf1c11a2fab1f9aabc5edeabfd0cb32a5705e19967f006",
+      "source": "Google Fonts: Noto Sans Bengali (SIL Open Font License)"
+    },
+    {
+      "file": "assets/fonts/NotoSansBengali-OFL.txt",
+      "bytes": 4383,
+      "sha256": "754f0e221aa7d5a915489f3bf1f20fe53ddc35ab2834a4d91656d78f9622de70",
+      "source": "Google Fonts: Noto Sans Bengali (SIL Open Font License)"
+    },
+    {
+      "file": "assets/fonts/manrope-variable.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "source": "https://github.com/google/fonts/tree/main/ofl/manrope"
+    },
+    {
+      "file": "assets/fonts/Manrope-OFL.txt",
+      "bytes": 4387,
+      "sha256": "58172e0c0fac2cda8a37b348164bb55e44b0e69051e557e92b1d3f6910141f7b",
+      "source": "https://github.com/google/fonts/tree/main/ofl/manrope"
     }
   ]
 }

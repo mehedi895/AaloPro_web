@@ -1,0 +1,16 @@
+{
+  // Existing Cloudflare Worker serving aalopro.com.
+  "name": "red-snow-e6ee",
+  "account_id": "f58388039dfb8f81a4219cdbe782d466",
+  "compatibility_date": "2026-11-10",
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "aalopro.com", "custom_domain": true }
+  ],
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

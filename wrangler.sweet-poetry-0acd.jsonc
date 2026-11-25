@@ -1,0 +1,29 @@
+{
+  // Separate deployment of the complete AaloPro website.
+  "name": "sweet-poetry-0acd",
+  "account_id": "f58388039dfb8f81a4219cdbe782d466",
+  "compatibility_date": "2026-11-23",
+  "workers_dev": true,
+  "preview_urls": false,
+  "routes": [],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1,
+    "logs": {
+      "enabled": true,
+      "head_sampling_rate": 1,
+      "persist": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": false,
+      "persist": true,
+      "head_sampling_rate": 1
+    }
+  },
+  "assets": {
+    "directory": "./dist",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page"
+  }
+}

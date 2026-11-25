@@ -17,6 +17,24 @@
   const videoStates = new Map();
   window['ga-disable-' + measurementId] = true;
 
+  // Reserve room while the non-modal banner is visible, including at the footer.
+  function syncConsentSpace() {
+    const space = panel.hidden ? 0 : Math.ceil(panel.getBoundingClientRect().height + 40);
+    document.documentElement.style.setProperty('--consent-space', space + 'px');
+  }
+  new ResizeObserver(syncConsentSpace).observe(panel);
+  document.addEventListener('focusin', event => {
+    if (panel.hidden || panel.contains(event.target)) return;
+    requestAnimationFrame(() => {
+      if (panel.hidden || document.activeElement !== event.target) return;
+      const target = event.target.getBoundingClientRect();
+      const banner = panel.getBoundingClientRect();
+      if (target.bottom > banner.top - 12 && target.top < banner.bottom) {
+        window.scrollBy({ top: target.bottom - banner.top + 16, behavior: 'instant' });
+      }
+    });
+  });
+
   function readChoice() {
     try {
       const saved = JSON.parse(localStorage.getItem(storageKey));
@@ -37,12 +55,14 @@
     closeButton.hidden = !choice;
     status.textContent = choice ? 'Current choice: analytics ' + (choice === 'accepted' ? 'on.' : 'off.') : '';
     panel.hidden = false;
+    syncConsentSpace();
     if (trigger) panel.querySelector('h2').focus();
   }
 
   function hideSettings() {
     const focusWasInside = panel.contains(document.activeElement);
     panel.hidden = true;
+    syncConsentSpace();
     if (focusWasInside && returnFocus) returnFocus.focus({ preventScroll: true });
     returnFocus = null;
   }

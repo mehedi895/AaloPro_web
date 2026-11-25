@@ -108,3 +108,4 @@
  .detail-related{flex-direction:column;align-items:flex-start;gap:24px;padding:28px 24px;margin-bottom:44px}.detail-related h2{font-size:25px}
 }
 @media(max-width:374px){.detail-actions{gap:10px}.detail-actions .button{font-size:13px;padding-inline:15px}.detail-price{padding:20px 13px}.detail-price-value{font-size:33px}.detail-hero h1{font-size:42px}}
+@media(forced-colors:active){.detail-hero h1>span:not(.sr-only){color:CanvasText}}
